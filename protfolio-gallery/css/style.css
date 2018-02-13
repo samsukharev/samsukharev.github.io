@@ -103,6 +103,9 @@ p:hover {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
   }
+  .tile img{
+    width: 100%;
+  }
 }
 
 h1 {
@@ -191,7 +194,7 @@ body {
   }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
   .navigation {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -210,45 +213,9 @@ body {
     border-bottom: none;
   }
 }
-/*For Desktops */
-.firstImage {
-    float: left;
-    margin-left: 17%;
-    padding: 1em;
-    width: 20%;
-
-}
-.firstImage1 {
-    float: left;
-    padding: 1em;
-    width: 20%;
-
-}
-
-.secondImage {
-    padding: 1em;
-    width: 20%;
-}
 
 /*For Mobile Devices */
 @media only screen and (max-width: 768px) {
-    [class="firstImage"] {
-        width: 100%;
-        padding: 0;
-        margin-left: 0;
-        margin-bottom: 5px;
-    }
-    [class="secondImage"] {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    [class="firstImage1"] {
-        width: 100%;
-        padding: 0;
-        margin-left: 0;
-        margin-bottom: 5px;
-    }
     [class="copyRight"]{
           text-align: center;
           display: block;
