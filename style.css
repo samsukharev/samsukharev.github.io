@@ -37,7 +37,7 @@ h3{
   margin-top: 0px;
   margin-bottom: 0px;
   color: #565956;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .bio{
@@ -48,8 +48,7 @@ h3{
   font-weight: normal;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
   color: #adadad;
 }
 
@@ -155,7 +154,7 @@ body {
       padding: 0;
     }
 
-    .theTextForMobile{
+    [class="theTextForMobile"]{
       margin-left: 50px;
       margin-right: 50px;
     }
