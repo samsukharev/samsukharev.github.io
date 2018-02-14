@@ -52,6 +52,19 @@ h3{
   color: #adadad;
 }
 
+.thanks{
+  font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
+  font-weight: 600;
+  position: sticky;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  color: #565956;
+}
+
 body {
   background-color: #f9fcf7;
 }
