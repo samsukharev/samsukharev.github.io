@@ -94,7 +94,10 @@ body {
 .navigation a {
   text-decoration: none;
   display: block;
-  padding: 1em;
+  padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0;
   color: #adadad;
 }
 
@@ -271,7 +274,7 @@ iframe {
 .wrap-contact100 {
   width: 550px;
   background: transparent;
-  padding: 1em 0px 160px 0px;
+  padding: 0px 0px 160px 0px;
 }
 
 
@@ -290,7 +293,7 @@ iframe {
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 49px;
+  padding-bottom: 20px;
 }
 
 /*------------------------------------------------------------------
