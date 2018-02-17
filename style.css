@@ -14,6 +14,7 @@ h1 {
 .russianGirl{
   font-size: 35px;
   font-weight: 500;
+  margin-top: 0;
 }
 .photographer{
   margin-top: 0;
@@ -63,7 +64,7 @@ h3{
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
-
+    float: left;
 }
 
 .threePics {
@@ -80,8 +81,8 @@ h3{
     column-width: 33.33333333333333%;
 }
 .aboutPic {
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 20%;
+    margin-right: 20%;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -92,6 +93,7 @@ h3{
     -moz-column-width: 50%;
     column-width: 50%;
 }
+
 .thanks{
   font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 50px;
@@ -104,10 +106,49 @@ h3{
   padding-left: 20px;
   color: #565956;
 }
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 50%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+@media all and (min-width: 768px) {
+    .nav {-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1; height: 100%;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2; padding-top: 0;}
+    footer {-webkit-order:3;order:3;}
+}
+.imaginka img{
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  margin-left:10%;
+  margin-bottom: 1rem;
+  float: right;
+}
+
+.nav{
+  width: 35%;
+}
 
 body {
   background-color: #f9fcf7;
 }
+
 
 @import "compass/css3";
 
@@ -160,51 +201,17 @@ body {
     border-bottom: none;
   }
 }
-/*For Desktops */
-.firstImage {
-    float: left;
-    margin-left: 17%;
-    padding: 1em;
-    width: 20%;
 
-}
-.firstImage1 {
-    float: left;
-    padding: 1em;
-    margin-left: 17%;
-    margin-top: 40px;
-    margin-bottom: 17%;
-    width: 20%;
-
-}
-
-.secondImage {
-    padding: 1em;
-    width: 20%;
-}
 
 /*For Mobile Devices */
 @media only screen and (max-width: 768px) {
-    [class="firstImage"] {
-        width: 100%;
-        padding: 0;
-        margin-left: 0;
-        margin-bottom: 5px;
-    }
-    [class="secondImage"] {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    [class="firstImage1"] {
-        width: 100%;
-        padding: 0;
-        margin-left: 0;
-        margin-bottom: 15px;
-    }
+
     [class="bio"]{
       width: 100%;
       padding: 0;
+    }
+    .imaginka img{
+      width: 100%;
     }
 
     [class="theTextForMobile"]{
