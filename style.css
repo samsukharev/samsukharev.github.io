@@ -141,6 +141,7 @@ h3{
   float: right;
 }
 
+
 .nav{
   width: 35%;
 }
@@ -213,6 +214,7 @@ body {
     .imaginka img{
       width: 100%;
     }
+
 
     [class="theTextForMobile"]{
       margin-left: 50px;
