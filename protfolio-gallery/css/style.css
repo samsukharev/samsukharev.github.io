@@ -70,17 +70,7 @@ p:hover {
     vertical-align: middle;
     -webkit-appearance: none;
     color: #565956;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.btn:hover {
-  text-decoration: none;
-}
-
-.btn:focus {
-  outline: none;
-  border-color: #adadad;
-  box-shadow: #565956;
+    background-color: #f9fcf7;
 }
 
 ::-moz-focus-inner {
