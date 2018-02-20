@@ -60,6 +60,7 @@ p:hover {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    border-radius: 8px;
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
@@ -70,8 +71,17 @@ p:hover {
     vertical-align: middle;
     -webkit-appearance: none;
     color: #565956;
-    background-color: #f9fcf7;
+    background-color: #fff;
 }
+.btn:hover {
+-  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: #adadad;
+  box-shadow: #565956;
+ }
 
 ::-moz-focus-inner {
   border: 0;
